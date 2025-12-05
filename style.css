@@ -359,9 +359,12 @@ input{
 section {
   position: relative;
   width: 100%;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  overflow-y:hidden;
 }
 section .wave {
   position: absolute;
@@ -473,6 +476,7 @@ section .wave span:nth-child(3) {
         font-size: 10px;
     }
 }
+
 
 
 
