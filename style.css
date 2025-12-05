@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-around;
+    display: flex;
+    z-index: 10;
+    
+}
+
+li a{
+    color: rgb(218, 59, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px; 
+}
+
+.centered-title{
+    color: white;
+    font-size: 8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     transition: 1.1s;
+}
+
+.subheading{
+     color: white;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1.1s;
+}
+
+.container{
+    text-align: center;
+     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.centered-title:hover{
+    color: rgb(218, 59, 59);
+}
+
+.subheading:hover{
+    color: grey;
+}
+
+.one a,
+.two a,
+.three a,
+.four a{
+    transition: 0.5s;
+}
+
+.one a:hover,
+.two a:hover,
+.three a:hover,
+.four a:hover{
+    color: white;
+}
+
+.iconhtml,
+.iconcss,
+.iconjs,
+.iconphp,
+.iconsql{
+    font-size:3rem;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.iconhtml:hover{
+    color:orange;
+}
+
+.iconcss:hover{
+    color: blue ;
+}
+
+.iconjs:hover{
+    color: yellow ;
+}
+
+.iconphp:hover{
+    color: purple ;
+}
+
+.iconsql:hover{
+    color: rgb(207, 153, 51);
+}
+
+
+.text {
+    margin: 100px auto 40px; 
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2{
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text3{
+    margin-top: 50px;
+    font-size: 78px;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text3:hover{
+    color: rgb(218, 59, 59);
+}
+
+.label{
+    color: white;
+    text-align:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.text-title{
+    font-size: 70px;
+    margin-top: 150px;
+}
+
+.text-paragraph{
+    font-size: 28px;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.portfolio-container {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(109, 109, 109, 0);
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.intercontainer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(151, 151, 151);
+}
+
+.portfolio-container h1 {
+   color: white;
+   margin-top: 10px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.link{
+    width: 25%;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    margin-top: 10px;
+}
+
+form{
+    width: 40%;
+    height: 500px;
+    margin-top: 90px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(97, 97, 97, 0);
+}
+
+input{
+    width: 100%;
+    margin: 10px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+}
+
+.messege{
+    height: 200px;
+}
+
+    #inter-container-portfolio-img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+
+
+.off-screen-menu{
+    position: relative;
+    z-index: 999999;
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    max-width: 585px;
+    position: fixed;
+    top: 0;
+    right: -585px;
+    display: flex;
+    font-size: 2rem;
+    transition: .3s ease;
+}
+
+.off-screen-menu a{
+    color: lch(100% 0.01 296.81);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.off-screen-menu.active{
+    right: 0;
+}
+
+.hamburger {
+    height: 50px;
+    width: 50px;
+    margin: 0;        
+    margin-left: -80px;
+    position: relative; 
+    display: none;
+}
+
+.hamburger span{
+     margin-right: auto; 
+    height: 5px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 25px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999999;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.hamburger span:nth-child(1){
+    top: 25%;
+    
+}
+
+.hamburger span:nth-child(3){
+    top: 75%;
+}
+
+.hamburger.active span:nth-child(1){
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+          color: rgb(218, 59, 59);
+}
+
+.hamburger.active span:nth-child(2){
+    transform: translate(-50%, -50%) rotate(45deg);
+          color: rgb(218, 59, 59);
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3){
+    top: 50%;
+    transform: translate(-50%, -50%)rotate(-45deg);
+          color: rgb(218, 59, 59);
+}
+
+#off-screen{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.off-screen-menu li{
+    margin-top: 50px;
+    display: block; 
+    width: 100%; 
+    text-align: center;
+}
+
+.container1{
+    margin-top: -90px;
+}
+
+
+
+
+
+
+/* Background */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+section .wave {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #7a1d00;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+section .wave span {
+  content: "";
+  position: absolute;
+  width: 325vh;
+  height: 325vh;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  font-size: 4em;
+  letter-spacing: 2px;
+  color: #fff;
+}
+section .wave span:nth-child(1) {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+}
+
+section .wave span:nth-child(2) {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: animate 10s linear infinite;
+}
+section .wave span:nth-child(3) {
+  border-radius: 42.5%;
+  background: rgba(20, 20, 20, 0.5);
+  animation: animate 15s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 585px) {
+    nav ul{
+        display: none;
+    }
+
+    section{
+        overflow-x: visible;
+        overflow-y: scroll;
+        height: auto;
+    }
+
+
+
+    .hamburger {
+    display: block;
+}
+
+
+    .centered-title{
+        font-size: 80px;
+    }
+
+    .subheading{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .iconhtml,
+.iconcss,
+.iconjs,
+.iconphp,
+.iconsql{
+    font-size:2rem;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+    .centered-title{
+        font-size: 50px;
+    }
+
+    .subheading{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 235px) {
+
+    .centered-title{
+        font-size: 30px;
+    }
+
+    .subheading{
+        font-size: 10px;
+    }
+}
+
+
+
