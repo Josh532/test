@@ -346,7 +346,9 @@ input{
 
 .container1{
     margin-top: -90px;
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -435,7 +437,9 @@ section .wave span:nth-child(3) {
         height: auto;
     }
 
-
+    .container1{
+        width:100%
+    }
 
     .hamburger {
     display: block;
@@ -489,6 +493,7 @@ section .wave span:nth-child(3) {
         font-size: 10px;
     }
 }
+
 
 
 
